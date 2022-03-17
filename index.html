@@ -4,9 +4,9 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>USWDS Fractal example document</title>
-    <link rel="stylesheet" href="./USWDS Fractal example document_files/uswds.min.css">
-    <script src="./USWDS Fractal example document_files/uswds-init.min.js"></script>
+    <title>Okta SSO</title>
+    <link rel="stylesheet" href="./uswds.min.css">
+    <script src="./uswds-init.min.js"></script>
     
   </head>
   <body>
@@ -23,10 +23,10 @@
     <header class="usa-banner__header usa-banner__header--expanded">
       <div class="usa-banner__inner">
         <div class="grid-col-auto">
-          <img class="usa-banner__header-flag" src="./USWDS Fractal example document_files/us_flag_small.png" alt="U.S. flag">
+          <img class="usa-banner__header-flag" src="./us_flag_small.png" alt="U.S. flag">
         </div>
         <div class="grid-col-fill tablet:grid-col-auto">
-          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-text">A website of Sergio Zygmunt</p>
           <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
         </div>
         <button class="usa-accordion__button usa-banner__button" aria-expanded="true" aria-controls="gov-banner">
@@ -37,29 +37,27 @@
     <div class="usa-banner__content usa-accordion__content" id="gov-banner">
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="./USWDS Fractal example document_files/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="./icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
-                Official websites use .gov
+                The domain being sergiozygmunt.com means it's legit.
 </strong>
               <br>
-              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+              I typically host my projects as subdomains of sergiozygmunt.com. You can verify my ownership of this domain through Keybase.
 
             </p>
           </div>
         </div>
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="./USWDS Fractal example document_files/icon-https.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="./icon-https.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
-                Secure .gov websites use HTTPS
+                The site is secure.
 </strong>
               <br>
-              A <strong>lock</strong> (
-<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description" focusable="false"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span>
-) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+              A lock (🔒) or https:// means you’ve securely connected to the website. Share sensitive information only on secure websites.
 
             </p>
           </div>
@@ -76,7 +74,7 @@
   <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
       <em class="usa-logo__text">
-        <a href="https://federalist-3b6ba08e-0df4-44c9-ac73-6fc193b0e19c.app.cloud.gov/" title="Home" aria-label="Home">&lt;Project title&gt;</a>
+        <a href="https://idp.sergiozygmunt.com" title="Home" aria-label="Home">IdP SSO</a>
       </em>
     </div>
   </div>
@@ -91,13 +89,13 @@
       <div class="grid-row flex-justify-center">
         <div class="grid-col-12 tablet:grid-col-8 desktop:grid-col-6">
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
-            <h1 class="margin-bottom-0">Sign in</h1>
+            <h1 class="margin-bottom-0">Sign in via Okta</h1>
             <form class="usa-form" data-bitwarden-watching="1">
   <fieldset class="usa-fieldset">
-    <legend class="usa-legend usa-legend--large">Access your account</legend>
+    <!--<legend class="usa-legend usa-legend--large">Access your account</legend>-->
     
     <label class="usa-label" for="email">
-      Email address
+      Username
     </label>
     <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAmJJREFUWAntV7uKIkEUvbYGM4KID3wEIgjKRLLpKGLgFwiCfslGhkb7IbLgAzE1GhMxWxRRBEEwmEgDERWfW6fXuttq60a2wU6B1qlzb9U5fatsKROJVigUArvd7oeAyePx6Af3qGYymT7F2h8Wi+V7Pp+fmE7iv4Sw81GieusKIzNh4puCJzdaHIagCW1F4KSeQ4O4pPLoPb/3INBGBZ7avgz8fxWIxWIUCoX43Blegbe3NwoGg88zwMoncFUB8Yokj8dDdrv9MpfHVquV/H4/iVcpc1qgKAp5vV6y2WxaWhefreB0OimXy6kGkD0YDKhSqdB2u+XJqVSK4vE4QWS5XKrx0WjEcZ/PR9lslhwOh8p1Oh2q1Wp0OBw4RwvOKpBOp1kcSdivZPLvmxrjRCKhiiOOSmQyGXp5ecFQbRhLcRDRaJTe39//BHW+2cDr6ysFAoGrlEgkwpwWS1I7z+VykdvtliHuw+Ew40vABvb7Pf6hLuMk/rGY02ImBZC8dqv04lpOYjaw2WzUPZcB2WMPZet2u1cmZ7MZTSYTNWU+n9N4PJbp3GvXYPIE2ADG9Xqder2e+kTr9ZqazSa1222eA6FqtUoQwqHCuFgscgWQWC6XaTgcEiqKQ9poNOiegbNfwWq1olKppB6yW6cWVcDHbDarIuzuBBaLhWrqVvwy/6wCMnhLXMbR4wnvtX/F5VxdAzJoRH+2BUYItlotmk6nLGW4gX6/z+IAT9+CLwPPr8DprnZ2MIwaQBsV+DBKUEfnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
     
@@ -123,17 +121,17 @@
 </form>
 
           </div>
-          <p class="text-center">
+          <!--<p class="text-center">
             Don’t have an account?
             <a class="usa-link" href="javascript:void(0);">Create your account now</a>.
           </p>
-          <div class="border-top border-base-lighter margin-top-3 padding-top-1">
-  <h2>Are you a federal employee?</h2>
+          <div class="border-top border-base-lighter margin-top-3 padding-top-1"> -->
+  <h2>Using a federated identity?</h2>
   <div class="usa-prose">
-    <p>If you are a federal employee or [other secondary user], please use [secondary Single Sign On (SSO)].</p>
+    <p>If you use a federated identity via the federation scheme, use the link below.</p>
     <p>
-      <a class="usa-button usa-button--outline" href="javascript:void()">
-        Launch secondary SSO
+      <a class="usa-button usa-button--outline" href="https://sergiozygmunt.cloudflareaccess.com">
+        Federated IdP
       </a>
     </p>
   </div>
@@ -198,7 +196,7 @@
       <div class="grid-row grid-gap">
         <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
           <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="./USWDS Fractal example document_files/logo-img.png" alt="">
+            <img class="usa-footer__logo-img" src="./logo-img.png" alt="">
           </div>
           <div class="mobile-lg:grid-col-auto">
             <p class="usa-footer__logo-heading">
@@ -211,31 +209,31 @@
             
               <div class="grid-col-auto">
                 <a class="usa-social-link" href="javascript:void(0);">
-                  <img class="usa-social-link__icon" src="./USWDS Fractal example document_files/facebook.svg" alt="Facebook">
+                  <img class="usa-social-link__icon" src="./facebook.svg" alt="Facebook">
                 </a>
               </div>
             
               <div class="grid-col-auto">
                 <a class="usa-social-link" href="javascript:void(0);">
-                  <img class="usa-social-link__icon" src="./USWDS Fractal example document_files/twitter.svg" alt="Twitter">
+                  <img class="usa-social-link__icon" src="./twitter.svg" alt="Twitter">
                 </a>
               </div>
             
               <div class="grid-col-auto">
                 <a class="usa-social-link" href="javascript:void(0);">
-                  <img class="usa-social-link__icon" src="./USWDS Fractal example document_files/youtube.svg" alt="YouTube">
+                  <img class="usa-social-link__icon" src="./youtube.svg" alt="YouTube">
                 </a>
               </div>
             
               <div class="grid-col-auto">
                 <a class="usa-social-link" href="javascript:void(0);">
-                  <img class="usa-social-link__icon" src="./USWDS Fractal example document_files/instagram.svg" alt="Instagram">
+                  <img class="usa-social-link__icon" src="./instagram.svg" alt="Instagram">
                 </a>
               </div>
             
               <div class="grid-col-auto">
                 <a class="usa-social-link" href="javascript:void(0);">
-                  <img class="usa-social-link__icon" src="./USWDS Fractal example document_files/rss_feed.svg" alt="RSS">
+                  <img class="usa-social-link__icon" src="./rss_feed.svg" alt="RSS">
                 </a>
               </div>
             
@@ -268,7 +266,7 @@
   <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier,">
     <div class="usa-identifier__container"><div class="usa-identifier__logos">
         <a href="javascript:void(0);" class="usa-identifier__logo">
-          <img class="usa-identifier__logo-img" src="./USWDS Fractal example document_files/circle-gray-20.svg" alt="&lt;Parent agency&gt; logo" role="img">
+          <img class="usa-identifier__logo-img" src="./circle-gray-20.svg" alt="&lt;Parent agency&gt; logo" role="img">
         </a></div><div class="usa-identifier__identity" aria-label="Agency description">
         <p class="usa-identifier__identity-domain">&lt;domain.gov&gt;</p>
         <p class="usa-identifier__identity-disclaimer">An official website of the <a href="javascript:void(0);">&lt;Parent agency&gt;</a></p>
@@ -311,7 +309,7 @@
   </div>
 
     
-    <script src="./USWDS Fractal example document_files/uswds.min.js"></script>
+    <script src="./uswds.min.js"></script>
   
 
 
